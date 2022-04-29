@@ -1,0 +1,25 @@
+.contributors{
+    width: 800px;
+}
+.contributor{
+    margin: 5px;
+}
+.contributor__img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.contributors__list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 0;
+}
+.contributor__link{
+    color: #00d91d;
+}
+.contributors__title{
+    text-align: left;
+    font-weight: bold;
+}

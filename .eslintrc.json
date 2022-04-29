@@ -1,0 +1,33 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "extends": [
+        "react-app",
+        "react-app/jest",
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "arrow-body-style":"off",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "import/prefer-default-export": "off",
+        "react/require-default-props": "off",
+        "default-param-last": "off",
+        "no-unused-vars": "off"
+
+    },
+    "root":true
+}

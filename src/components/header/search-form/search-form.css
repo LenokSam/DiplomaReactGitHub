@@ -1,0 +1,24 @@
+.search-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    border: solid 1px #d0d7de;
+    border-radius: 10px;
+}
+
+.search-form__input{
+    margin: 0 5px;
+    border:none;
+    background-color: initial;
+    color: white;
+    outline:none;
+    font-size: 20px;
+}
+.search-form__btn{
+    border:1px solid;
+    border-radius: 50%;
+    background-color: initial;
+    color: white;
+    outline:none;
+}

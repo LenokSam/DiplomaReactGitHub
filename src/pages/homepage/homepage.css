@@ -1,0 +1,14 @@
+.error{
+    font-size: 35px;
+    font-weight: bold;
+}
+.repositories__count{
+    color: #00d91d;
+    margin: 10px;
+}
+.repositories__title{
+    background-color: #e8faed;
+    box-shadow: 5px 5px 5px rgb(165, 163, 163);
+    padding: 20px;
+    font-size: 35px;
+}

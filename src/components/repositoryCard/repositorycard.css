@@ -1,0 +1,95 @@
+.repository-card{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 0 50px;
+    background-color: #F5FFFA;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px rgb(165, 163, 163);
+}
+.repository-owner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.repository-owner__name{
+    color: #283430; 
+    font-weight: bold;
+    text-align: center;
+}
+.repository-owner__img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.repository-owner__login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.repository-card__title-icon{
+    margin-right: 10px;
+}
+.repository-card__title-name{
+    color: #00d91d;
+    font-size: 30px;
+    font-weight: bold;
+}
+.repository-card__title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.icon{
+    margin-right: 10px;
+}
+.repository-card__repository{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 20px 30px;
+}
+.repository-card__rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.rating-issues{
+    margin-left: 10px;
+}
+.repository-card__language{
+    border: 1px solid #5e7062;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.repository-card__description{
+    margin: 10px 0;
+    border: 0.5px #5e7062;
+    border-style: dashed;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+}
+.repository-card__topics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+.topic{
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #e8faed;
+    box-shadow: 5px 5px 5px rgb(165, 163, 163);
+}
+.repository-card__commit{
+    color: #5e7062;
+    margin: 5px;
+}
